@@ -1,0 +1,1000 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  font-family: "Titillium Web";
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-column {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  z-index: 1;
+}
+
+
+.right-content {
+  flex: 1;
+  max-width: calc(100% - 50px);
+  margin-right: 50px;
+  padding: 20px;
+  color: white;
+}
+
+
+.section {
+  max-width: 600px;
+  margin: 120px 0 0 400px;
+  font-size: 1.2em;
+}
+
+
+.left-column {
+  width: 450px;
+  position: fixed;
+  height: 100%;
+  padding: 100px;
+  color: white;
+  z-index: 1;
+}
+
+
+
+.personal-info {
+  font-family: "Titillium Web";
+  margin-bottom: 6rem;
+}
+
+.name {
+  font-size: 2em;
+  color: #f4c587;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+.intro {
+  font-size: 1.1em;
+}
+
+.nav-links {
+  margin-left: -2%;
+}
+
+.nav-link {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+  font-family: "Titillium Web";
+  color:white;
+  text-decoration: none;
+}
+
+.social-links {
+  margin-left: 0%;
+  margin-top: 5.5rem;
+}
+
+svg {
+  margin-right: 10px;
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+svg:hover {
+  color: #f4c587;
+}
+
+.section {
+  color: white;
+}
+
+.section.active {
+  display: block;
+}
+
+.my-name {
+  color: white;
+}
+
+div.right-content {
+  padding: 20px;
+  margin-right: 50px;
+  color: white;
+}
+
+.section.active {
+  display: block;
+}
+
+.line {
+  height: 2px;
+  background-color: #f4dab8;
+  width: 0;
+  transition: width 0.3s ease;
+  margin-bottom: 8px;
+}
+
+.active .line {
+  width: 40%;
+  background-color: #f4c587;
+}
+
+.nav-link {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease, opacity 0.3s ease;
+  opacity: 0.4;
+}
+
+.line {
+  height: 2px;
+  background-color: white;
+  width: 0;
+  transition: width 0.3s ease;
+  margin-bottom: 8px;
+}
+
+.nav-link {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease, opacity 0.3s ease;
+  opacity: 0.4;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  opacity: 1;
+}
+
+.line {
+  height: 2px;
+  background-color: #f4dab8;
+  transition: width 0.3s ease;
+  margin-bottom: 8px;
+  max-width: 60px;
+}
+
+.nav-link {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: none;
+}
+
+.nav-link .line {
+  flex-grow: 1;
+  margin-right: 2rem;
+}
+
+.nav-link:hover .line {
+  width: 40%;
+}
+
+.nav-link.active {
+  border-bottom: none;
+}
+
+.nav-link.active .line {
+  max-width: 100px;
+  transition: width 0.3s ease;
+}
+
+.about-me p {
+  color: white !important;
+}
+
+.about-me {
+  margin-top: 5.8rem;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  width: 450px;
+  position: fixed;
+  height: 100%;
+  padding: 100px;
+  color: white;
+  z-index: 1;
+}
+
+.right-content {
+  flex: 1;
+  max-width: calc(100% - 50px);
+  margin-right: 50px;
+  padding: 20px;
+  color: white;
+  font-family: "Titillium Web";
+}
+
+.section {
+  max-width: 600px;
+  margin: 120px 0 0 400px;
+  font-size: 1.2em;
+  font-family: "Titillium Web";
+}
+
+.flashlight {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.social-links a {
+  color: white;
+}
+
+.card {
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+.card div {
+  flex: 1;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  margin-bottom: 10px;
+}
+
+.card-buttons {
+  display: flex;
+}
+
+.card-button {
+  background-color: white;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.project-card {
+  display: flex;
+  margin-bottom: 180px;
+  border-radius: 8px;
+  transition: transform .2s; /* Animation */
+}
+.project-card:hover {
+  transform: scale(1.07); 
+}
+
+
+
+.project-card-link {
+  color: white;
+  text-decoration: none;
+}
+
+.project-card-link:hover {
+  color: white; /* Keep the color the same on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+#project {
+  margin-left: -7.8rem;
+  margin-top: 10rem;
+}
+
+.projects {
+  margin-top: 8rem;
+  font-family: "Titillium Web";
+  font-weight: lighter;
+}
+
+.project-image {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 0;
+}
+
+.project-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.project-header {
+  font-size: 1.5em;
+  margin-top: -33px;
+}
+
+.project-description {
+  margin-bottom: 65px;
+}
+
+.project-technologies {
+  display: flex;
+  font-size: 0.75em;
+}
+
+.project-tech {
+  background-color: #f4c587;
+  color: black;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-pill {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 20px;
+  font-family: "Titillium Web";
+  font-size: 0.8em;
+}
+.skill-pill:hover {
+  background-color: #f4c587;
+  cursor: pointer;
+}
+
+.academic-experience,
+.education {
+  margin-top: -2%;
+  font-family: "Titillium Web";
+  font-weight: lighter;
+  color: #f4c587;
+}
+
+.education-part {
+  margin-bottom: 4rem;
+}
+
+.projects-header {
+  margin-top: -0.45rem;
+  margin-bottom: 5rem;
+  font-weight: lighter;
+  color: #f4c587;
+  margin-left: 0;
+}
+
+.hr {
+  width: 10%;
+  margin: 0;
+}
+
+.my-profile {
+  color: #f4c587;
+  font-family: "Titillium Web";
+  font-weight: lighter;
+  margin-top: -1.5%;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  width: 450px;
+  position: fixed;
+  height: 100%;
+  padding: 100px;
+  color: white;
+  z-index: 1;
+}
+
+
+.right-content {
+  flex: 1;
+  max-width: calc(100% - 50px);
+  margin-right: 50px;
+  padding: 20px;
+  color: white;
+  font-family: "Titillium Web";
+}
+
+.section {
+  max-width: 600px;
+  margin: 120px 0 0 400px;
+  font-size: 1.2em;
+  font-family: "Titillium Web";
+  
+}
+
+.right-content {
+  width: 100%; /* Set your desired width */
+  margin-left: 320px;
+  color: white;
+}
+
+
+@media screen and (min-width:280px) and (max-width:320px){
+ * {
+    box-sizing: border-box;
+  }
+
+  .app-container {
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    overflow-y: auto;
+    padding:0;
+  }
+
+  .left-column {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    margin: 0 !important;
+  }
+
+  .right-content {
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    font-family: "Titillium Web";
+    overflow-y: auto;
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .section {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .about-me {
+    width: 0%;
+  }
+
+  .project-card {
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+  }
+  .project-card{
+    transition:none;
+  }
+  .project-card:hover{
+    transform:none;
+  }
+
+  .project-image {
+    display:none;
+  }
+
+  h1.projects-header {
+    font-family: "Titillium Web";
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-top: 0rem;
+    margin-bottom: -5rem;
+  }
+
+  .project-technologies {
+    margin-left: -2%;
+    margin-bottom: 15%;
+  }
+
+  .project-details {
+    margin: 0;
+    padding: 0;
+  }
+  .about-me {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width:321px) and (max-width:360px){
+  * {
+    box-sizing: border-box;
+  }
+
+  .app-container {
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    overflow-y: auto;
+    padding:0;
+  }
+
+  .left-column {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    margin: 0 !important;
+  }
+
+  .right-content {
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    font-family: "Titillium Web";
+    overflow-y: auto;
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .section {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .about-me {
+    width: 0%;
+  }
+
+  .project-card {
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+  }
+  .project-card{
+    transition:none;
+  }
+  .project-card:hover{
+    transform:none;
+  }
+
+  .project-image {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    margin-right: 5%;
+    margin-top: -6%;
+  }
+
+  h1.projects-header {
+    font-family: "Titillium Web";
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-top: 0rem;
+    margin-bottom: -5rem;
+  }
+
+  .project-technologies {
+    margin-left: -2%;
+    margin-bottom: 15%;
+  }
+
+  .project-details {
+    margin: 0;
+    padding: 0;
+  }
+  .about-me {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 361px) and (max-width:375px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .app-container {
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    overflow-y: auto;
+    padding:1rem;
+  }
+
+  .left-column {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    margin: 0 !important;
+  }
+
+  .right-content {
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    font-family: "Titillium Web";
+    overflow-y: auto;
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .section {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .about-me {
+    width: 0%;
+  }
+
+  .project-card {
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+  }
+  .project-card{
+    transition:none;
+  }
+  .project-card:hover{
+    transform:none;
+  }
+
+  .project-image {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    margin-right: 5%;
+    margin-top: -6%;
+  }
+
+  h1.projects-header {
+    font-family: "Titillium Web";
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-top: 0rem;
+    margin-bottom: -5rem;
+  }
+
+  .project-technologies {
+    margin-left: -2%;
+    margin-bottom: 15%;
+  }
+
+  .project-details {
+    margin: 0;
+    padding: 0;
+  }
+  .about-me {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 376px) and (max-width:538px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .app-container {
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    overflow-y: auto;
+    padding:1rem;
+  }
+
+  .left-column {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    margin: 0 !important;
+  }
+
+  .right-content {
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    font-family: "Titillium Web";
+    overflow-y: auto;
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .about-me {
+    width: 0%;
+  }
+
+  .project-card {
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+    max-width: auto;
+  }
+  .project-card{
+    transition:none;
+  }
+  .project-card:hover{
+    transform:none;
+  }
+
+  .project-image {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    margin-right: 5%;
+    margin-top: -6%;
+  }
+
+  h1.projects-header {
+    font-family: "Titillium Web";
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-top: 0rem;
+    margin-bottom: -5rem;
+  }
+
+  .project-technologies {
+    margin-left: -2%;
+    margin-bottom: 15%;
+  }
+
+  .project-details {
+    margin: 0;
+    padding: 0;
+  }
+  .about-me {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 539px) and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .app-container {
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    overflow-y: auto;
+    padding:4rem;
+  }
+
+  .left-column {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    margin: 0 !important;
+  }
+
+  .right-content {
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    font-family: "Titillium Web";
+    overflow-y: auto;
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .about-me {
+    width: 100%;
+  }
+
+  .project-card {
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+    max-width: auto;
+  }
+  .project-card{
+    transition:none;
+  }
+  .project-card:hover{
+    transform:none;
+  }
+
+  .project-image {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    margin-right: 5%;
+    margin-top: -4%;
+  }
+
+  h1.projects-header {
+    font-family: "Titillium Web";
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-top: 0rem;
+    margin-bottom: -5rem;
+  }
+
+  .project-technologies {
+    margin-left: -2%;
+    margin-bottom: 15%;
+  }
+
+  .project-details {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .app-container {
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    overflow-y: auto;
+    padding:6rem;
+  }
+
+  .left-column {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    margin: 0 !important;
+  }
+
+  .right-content {
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    font-family: "Titillium Web";
+    overflow-y: auto;
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .about-me {
+    width: 100%;
+  }
+
+  .project-card {
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+    max-width: auto;
+  }
+  .project-card{
+    transition:none;
+  }
+  .project-card:hover{
+    transform:none;
+  }
+
+  .project-image {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    margin-right: 5%;
+    margin-top: -4%;
+  }
+
+  h1.projects-header {
+    font-family: "Titillium Web";
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-top: 0rem;
+    margin-bottom: -5rem;
+  }
+
+  .project-technologies {
+    margin-left: -2%;
+    margin-bottom: 15%;
+  }
+
+  .project-details {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .app-container {
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    overflow-y: auto;
+    padding:6rem;
+  }
+  .right-content{
+    margin-left:4rem;
+  }
+}
+
+
+
