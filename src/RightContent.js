@@ -11,37 +11,36 @@ const RightContent = ({ activeLink }) => {
   const projects = [
     {
       id: 1,
-      image: 'images/vær.png',
-      header: 'Værmelding app',
-      description: 'En værmeldingsapp som gir brukerne muligheten til å søke etter og legge til favorittsteder, og den tilbyr en intuitiv design for en personlig opplevelse. Jeg har også inkludert en dark-mode funksjon for fargeblindhet, økt tilpasningsmulighet og brukerkomfort.',
+      image: '/my-portfolio-page/images/vær.png',
+      header: 'Weather-App',
+      description: 'A weather forecast app that allows users to search for and add favorite locations, offering an intuitive design for a personalized experience. I have also included a dark-mode feature for color blindness, increased customization options, and user comfort.',
       technologies: ['React', 'SCSS',  'JS'],
-      externalLink: 'https://yuntal.github.io/weather-app', // Replace with actual external link
+      externalLink: 'https://yuntal.github.io/weather-app', 
     },
     {
       id: 2,
-      image: 'images/landing.png',
+      image: '/my-portfolio-page/images/landing.png',
       header: 'landing page',
-      description: 'En nettside-mal med et forhånds designet sett med layout, struktur og grafiske elementer. Dette gir utgangspunkt for utviklingen av en nettside, og en grunnleggende ramme som kan tilpasses etter brukerens/kundens behov.',
+      description: 'A website template with a pre-designed set of layout, structure, and graphic elements. This serves as a starting point for the development of a website, providing a basic framework that can be customized according to the users needs.',      
       technologies: [ 'React', 'SCSS', 'JS'],
-      externalLink: 'https://yuntal.github.io/landing-page/', // Replace with actual external link
+      externalLink: 'https://yuntal.github.io/landing-page/',
     },
     {
       id: 3,
-      image: 'images/supreme.png',
+      image: '/my-portfolio-page/images/supreme.png',
       header: 'Supreme store',
-      description: 'Prosjektet demonstrerer funksjonaliteten til CRUD (Create, Read, Update, Delete) for produkter. Plattformen gir brukere muligheten til å samhandle med produkter ved å legge til, fjerne og justere kvantum. Det er viktig å understreke at dette er en begrenset demonstrasjon som fokuserer spesifikt på håndtering av produkter gjennom grunnleggende CRUD-operasjoner.',
+      description: 'The project demonstrates the functionality of CRUD (Create, Read, Update, Delete) for products. The platform allows users to interact with products by adding, removing, and adjusting quantities. It is important to emphasize that this is a limited demonstration focusing specifically on managing products through basic CRUD operations.',      
       technologies: ['React', 'SCSS', 'JS'],
-      externalLink: 'https://github.com/yuntal/supreme-store', // Replace with actual external link
+      externalLink: 'https://github.com/yuntal/supreme-store',
     },
     {
       id: 4,
-      image: 'images/flower.png',
+      image: '/my-portfolio-page/images/flower.png',
       header: 'Flower-Power',
-      description: 'En WordPress-nettside som er utviklet lokalt. Finjusterte med layout og funksjoner gjennom CMS.Samtidig ble API-integrasjonen utført for å koble nettsiden til eksterne tjenester.  Resultatet er en nettside som kombinerer lokal utvikling, tilpasninger gjennom CMS og sømløs integrasjon av ulike tjenester gjennom API. ',
+      description: 'A WordPress website developed locally. Fine-tuned with layout and features through the CMS. Simultaneously, API integration was performed to connect the website to external services. The result is a website that combines local development, customizations through the CMS, and seamless integration of various services through API.',      
       technologies: ['CMS', 'WP', 'mySQL', 'JS'],
-      externalLink: 'https://designbytalay.com/', // Replace with actual external link
+      externalLink: 'https://designbytalay.com/',
     }
-    // Add more projects as needed
   ];
 
   const aboutContent = (
@@ -107,10 +106,10 @@ const RightContent = ({ activeLink }) => {
     <div className="education-part">
       <h1 className="education">Education</h1>
       <p className="education-p">
-        2019-2023: Frontend utvikling, Noroff Fagskole
+        2019-2023: Frontend development, Noroff 
       </p>
       <p className="education-p">
-        2014-2018: Bachelor i Historie, UIS
+        2014-2018: Bachelor in History, UIS
       </p>
     </div>
   );
